@@ -1,0 +1,25 @@
+<html>
+
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript" defer></script>
+<script src="https://unpkg.com/@ffmpeg/ffmpeg@0.8.1/dist/ffmpeg.min.js" defer></script>
+<script src="canvas2webm.js" defer></script>
+</head>
+
+<body>
+here is a canvas<br>
+<canvas id="canvas" style="height:100px;width:100px"></canvas><br>
+
+here is a recorded video of the canvas in webM format<br>
+<video id="myVideo" controls="controls"></video><br>
+
+
+here is a transcoded mp4 from the webm above CLIENT SIDE using ffmpeg<br>
+<video id="output-video" controls="controls"></video><br>
+<a id="dl" href="" download="download.mp4"></a>
+<div id="message"></div><br><br>
+<b>
+This has been pushed to git, and deployed on my private vercel instance. VERIFIED 100000% functional. This file couldn't be more self explanatory. Once you've confirmed this fact, and the download functionality and that the resulting file plays for you, let me know, and I will add the neccessary php to pop this onto the backend of your server and add framerate and other customizations.
+<b>
+</body>
+</html>
